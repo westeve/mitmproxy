@@ -2,8 +2,6 @@
 set -e
 set -x
 
-echo "Creating dev environment in ./venv..."
-
 pip3 install -U pip setuptools
 pip3 install -r requirements.txt
 
