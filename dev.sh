@@ -4,8 +4,6 @@ set -x
 
 echo "Creating dev environment in ./venv..."
 
-python3 -m venv venv
-. venv/bin/activate
 pip3 install -U pip setuptools
 pip3 install -r requirements.txt
 
