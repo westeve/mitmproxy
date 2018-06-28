@@ -5,7 +5,7 @@ from mitmproxy import ctx
 class Block:
     def load(self, loader):
         loader.add_option(
-            "block_global", bool, True,
+            "block_global", bool, False,
             """
             Block connections from globally reachable networks, as defined in
             the IANA special purpose registries.
